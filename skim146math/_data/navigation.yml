@@ -1,0 +1,13 @@
+main:
+
+  - title: "Posts"
+    url: /posts/
+
+  - title: "Textbooks"
+    url: /mathint/
+
+  - title: "My Stuff"
+    url: /mystuff/
+    
+
+  
