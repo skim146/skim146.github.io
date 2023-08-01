@@ -22,7 +22,7 @@ jobs:
           ruby-version: 3.2.2
           bundler-cache: true
       - name: Build
-        uses: actions/jekyll-build-pages@v1
+        run: JEKYLL_ENV=production bundle exec jekyll build --destination _site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
 
@@ -35,4 +35,4 @@ jobs:
         uses: actions/deploy-pages@v2
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }} 
+      url: ${{ steps.deployment.outputs.page_url }}
