@@ -39,8 +39,8 @@ defaults:
 
 author:
       name: "Sean Kim"
-      bio: "high school student"
-      avatar: "/assets/images/pfp.png"
+      bio: "High school student"
+      avatar: "/assets/images/tst.jpg"
       email: "seankim146@gmail.com"
       location: "South Korea"
       links:
