@@ -39,6 +39,7 @@ defaults:
 
 author:
       name: "Sean Kim"
+      bio: "international high school student"
       avatar: "/assets/images/black.jpg"
       email: "seankim146@gmail.com"
       location: "South Korea"
