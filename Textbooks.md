@@ -5,7 +5,7 @@ permalink: /mathint/
 classes: wide
 ---
 
-Most of the mathematics I know was learned through self-studying textbooks, with the exception of algebraic topology, measure theory,pdes, and group theory, which were learned in classes (which had an assigned text nonetheless). The textbooks I go through will be documented, and for each book, I will add a short summary/review on what I felt reading the text. 
+Most of the mathematics I know was learned through self-studying textbooks, with the exception of algebraic topology, measure theory, pdes, and group theory, which were learned in classes (which had an assigned text nonetheless). The textbooks I go through will be documented, and for each book, I will add a short summary/review on what I felt reading the text. 
 
 I started self-studying around December $$2021$$, and the following describes my current accumulated knowledge so far, and my experiences with the textbooks that I’ve read since then.
 
