@@ -4,7 +4,6 @@ title: My Stuff
 permalink: /mystuff/
 classes: wide
 ---
-woejfpowejfopwjeifoj
 This page stores all of the mathematical work that I’ve done. I upload any papers that I write, any solutions to problem sets assigned in my classes that I have completed, and other miscellaneous math related stuff I’ve compiled over the years. Note that these are authentic documents and may (and will) contain mathematical mistakes, especially my homework solutions. Please excuse the crankery.
 
 ## Expository Papers:
