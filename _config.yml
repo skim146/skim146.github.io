@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Sean Kim's Website
+title: Sean's Math Stuff
 description: >- # this means to ignore newlines until "baseurl:"
   My website
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -39,7 +39,6 @@ defaults:
 
 author:
       name: "Sean Kim"
-      bio: "a person"
       avatar: "/assets/images/black.jpg"
       email: "seankim146@gmail.com"
       location: "South Korea"
@@ -50,12 +49,12 @@ author:
               - label: "Spotify"
                 icon: "fab fa-spotify"
                 url: "https://open.spotify.com/user/nhf8gxa9bzop8pgbbsyjk0hkv?si=6fc9f0d3f0ad4640"
-              - label: "Last.fm"
-                icon: "fab fa-lastfm-square"
-                url: "https://www.last.fm/user/Stonks0728"
               - label: "Math SE"
                 icon: "fab fa-stack-exchange"
                 url: "https://math.stackexchange.com/users/1055533/sean-kim"
+              - label: "Linkedin"
+                icon: "fab fa-linkedin"
+                url: "https://www.linkedin.com/in/sieonseankim/"
 
 
 

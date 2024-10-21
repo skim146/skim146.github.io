@@ -5,12 +5,7 @@ permalink: /mathint/
 classes: wide
 ---
 
-Most of the mathematics I know was learned through self-studying textbooks, with the exception of algebraic topology, measure theory, and group theory, which were learned in classes (which had an assigned text nonetheless). The textbooks I go through will be documented, and for each book, I will add a short summary/review on what I felt reading the text. 
-
-I am currently learning:
-
-- **Algebraic Topology**
-    - *Algebraic Topology* - A. Hatcher
+Most of the mathematics I know was learned through self-studying textbooks, with the exception of algebraic topology, measure theory,pdes, and group theory, which were learned in classes (which had an assigned text nonetheless). The textbooks I go through will be documented, and for each book, I will add a short summary/review on what I felt reading the text. 
 
 I started self-studying around December $$2021$$, and the following describes my current accumulated knowledge so far, and my experiences with the textbooks that I’ve read since then.
 
@@ -25,6 +20,16 @@ My background:
         
         A more encyclopedic text than KP, covering the same content with additional topics. Covers both currents and varifolds, but I only read the chapter on currents. I recommend supplementing this book with another book such as KP, as it is very terse and leaves many details to the reader. Still much more readable than Federer’s classical text on GMT though. Again, it lacks exercises so one would need to find another source for those.
         
+- **Partial Differential Equations**
+    - *Partial Differential Equations* - L. Evans
+
+        I read a bit of Evans for another reading group, and it was overall a challenging experience. I found that the most difficult part of reading Evans was actually the calculations with the multivariable calculus, and this was not a good time for me since I had essentially skipped vector calc in my self-studying journey. However, the book itself was fun to read, and the content was interesting, especially the stuff relating to the Laplacian and the properties thereof. I feel like I would have gotten a lot more out of reading the few chapters I read if I was better at calculating though. The Sobolev space stuff is cool, but I don't know enough to say anything much more than that.
+
+- **Mathematical Fluid Mechanics**
+    - *The Mathematical Analysis of the Incompressible Euler and Navier-Stokes Equations: An Introduction* - V. Vicol and J. Bedrossian
+
+    I read this at the recommendation of a professor, having just read some of Evans. I only got through the first chapter, but I found this first chapter to be very interesting, as it was my first time reading a text that incorporated aspects from physics (although it is very much a pure math text at heart). The first chapter was definitely very approachable and could be read with only a calculus background, especially since a lot of the chapter was deriving the Euler equation. The fourier analysis and harmonic analysis stuff went over my head, but I managed to intuit it to understand the Leray projector, and overall, I felt as if it was a great introduction to the subject, especially for someone who was not familiar with much physics beforehand. Its appendix is also very sleek and was a good reference.
+
 - **Measure Theory**
     - *Real Analysis: Modern Techniques and their Applications* - G. Folland
         
@@ -42,8 +47,13 @@ My background:
 - **Complex Analysis**
     - *A Course in Complex Analysis and Riemann Surfaces* - W. Schlag
         
-        Only read the first chapter so I can’t speak on much, but from what I’ve seen, a very concise and high-level treatment of complex analysis. I went in with a background in measure theory and differential forms, so it was relatively readable, yet I still struggled in the section about Möbius transformations. Requires some knowledge of differential geometry and topology going in, and Schlag expects the reader to recognize things like one-point compactification and Stokes’s theorem within the first twenty pages. However, definitely a decent read if you know a lot of math but little complex analysis and want to learn it from an advanced viewpoint.
-        
+        Only read the first chapter so I can’t speak on much, but from what I’ve seen, a very concise and high-level treatment of complex analysis. I went in with a background in measure theory and differential forms, so it was relatively readable, yet I still struggled in the section about Möbius transformations. Requires some knowledge of differential geometry and topology going in, and Schlag expects the reader to recognize things like one-point compactification and Stokes’s theorem within the first twenty pages. However, definitely a decent read if you know a lot of math but little complex analysis and want to learn it from an advanced viewpoint. It also helped that I read this after I read a bit of Hatcher, meaning that I was familiar with what homotopy meant.
+
+- **Algebraic Topology**
+    - *Algebraic Topology* - A. Hatcher
+
+        I read this in a reading group which only got up to the Seifert Van-Kampen theorem (which nevertheless was very interesting). I felt that sometimes Hatcher would intuit a proof using visualizations or diagrams which seemed very nontrivial to me, since I have terrible visual intuition. Indeed, while I didn't think that a lot of the proofs were "not-rigorous", I also felt that something was missing. However, the pictures themselves are very nice, and definitely do aid in your understanding of whats going on. I think that supplementing this text with another text which spells out more of the details would be ideal, and it also was a very very interesting topic that I wanted to learn more about but never got around to.
+
 - **Calculus**
     - *Calculus: Early Transcendentals* - J. Stewart
         
@@ -68,12 +78,14 @@ My background:
         One of my favorites for linear algebra. Has a healthy mix of computation and theory, and assumes some algebra background (you should know what groups are). Proceeds with the exterior algebra construction of the determinant, which was the first perspective that made the determinant click with me. Otherwise a concise yet digestible text that could be read by one who is acquainted with the rudiments of linear algebra but wants a quick review or to expand their knowledge.
         
 
-For most of $$2022$$ and $$2023$$ I’ve been more interested in analysis than any other field, but my interests are now shifting more toward geometry and topology. The following are topics I want to study in the future.
+For most of high school I’ve been more interested in analysis than any other field, but I would love to try new stuff. The following are topics I want to study in the future.
 
 My reading list:
 
 - **Topological Data Analysis and Persistent Homology**
     - *Computational Topology: An Introduction* - H. Edelsbrunner and J. Harer
+- **Algebra**
+    - *Algebra* - S. Lang
 - **Commutative Algebra**
     - *Introduction to Commutative Algebra* - M. Atiyah and I. Macdonald
 - **Algebraic Geometry**
