@@ -9,6 +9,8 @@ My research is in the field of mathematical analysis. After finishing the readin
 
 I connected with Prof. Javier Gomez-Serrano from Brown University in late July of $$2024$$, and I was able to work on a conjecture that arose from the Hilbert transform and the fluid mechanics of water waves. Over the course of a few months, I found strong connections between the conjecture and the Jacobi Theta functions, and I was eventually able to show that the result was true. This resulted in the paper [*A note on the periodic Hilbert Transform on a strip*](https://drive.google.com/file/d/1nLGgKEv_K8SMxHl7dyLkD9F8sJ5fpxLY/view?usp=sharing).
 
+UPDATE: Paper is now on [arXiv](https://arxiv.org/abs/2411.00280) and was submitted to the Journal of Differential Equations as of November $$4$$th $$2024$$.
+
 Put concisely, in the paper, I proved the following bound:
 
 $$\beta_d(\pi/2) \geq 1$$ for all $$d \in (0,\infty)$$ where $$x=\pi^2/d$$ and 
