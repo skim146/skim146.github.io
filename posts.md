@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: single
 title: Posts
 permalink: /posts/
 author_profile: true
