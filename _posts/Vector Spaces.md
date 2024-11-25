@@ -7,7 +7,7 @@ classes: wide
 permalink: /vectorspace/
 ---
 
-## Referencing Linear Algebra Done Wrong - Treil
+## Referencing Linear Algebra Done Wrong - Treil (hello)
 
 This lecture series will detail linear algebra for beginners. It is aimed at students who are first learning pure math and are struggling with basic proofs/mathematical reasoning.
 

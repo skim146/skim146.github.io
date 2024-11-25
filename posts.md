@@ -8,3 +8,5 @@ author_profile: true
 I will be uploading posts of my linear algebra notes here.
 
 - [Vector Spaces](/vectorspace/)
+
+- [Systems of Linear Equations](/system/)
