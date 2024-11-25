@@ -4,6 +4,7 @@ title: Vector Spaces
 comments: false
 author_profile: true
 classes: wide
+permalink: /vector/
 ---
 
 ## Referencing Linear Algebra Done Wrong - Treil
