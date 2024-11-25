@@ -5,7 +5,6 @@ permalink: /posts/
 author_profile: true
 ---
 
-<head> {% include katex.html %} </head>
 <h2>Latest Posts</h2>
 
 <ul>
