@@ -473,7 +473,9 @@ $$
 - The Kronecker Delta is a function of two variables defined as:
 
 $$
-\delta_{ij}=\begin{cases} 0 & \text{if $$ i \neq j$$} \\ 1 & \text{if $$i=j$$} \end{cases}.
+\delta_{ij}=
+\begin{cases} 0 & \text{if $$ i \neq j$$} \\ 
+1 & \text{if $$i=j$$} \end{cases}.
 $$
 
 - It satisfies the following properties:
