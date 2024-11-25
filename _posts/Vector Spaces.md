@@ -129,10 +129,6 @@ $$
     - This can be written as $$\sum_{k=1}^n |\alpha_k| \neq 0$$.
     - Proposition: *A system of vectors $$v_1,v_2,...\ ,v_p \in V$$  is linearly dependent iff*
     
-    $$
-    ⁍
-    $$
-    
     - *Proof.*
         
         Suppose the system $$v_1,v_2,... \ , v_p \in V$$ is linearly dependent. Then, 
@@ -191,8 +187,6 @@ $$
         
     - Exercises
         
-        ![Screen Shot 2022-03-28 at 10.43.03 PM.png](Vector%20Spaces%2075017d01ddce48a5ac078bb8bb1d099e/Screen_Shot_2022-03-28_at_10.43.03_PM.png)
-        
         *Proof.*
         
         Take a vector $$v_{r+1}$$ that cannot be represented by a linear combination of the system of vectors $$v_1,v_2,\ldots,v_r$$. Suppose that the system $$v_1,v_2,\ldots,v_r,v_{r+1}$$is linearly dependent. This means that 
@@ -224,11 +218,7 @@ $$
     - Examples:
         - Differentiation
             
-            ![Screen Shot 2022-03-29 at 9.30.30 AM.png](Vector%20Spaces%2075017d01ddce48a5ac078bb8bb1d099e/Screen_Shot_2022-03-29_at_9.30.30_AM.png)
-            
         - Rotation and Reflection
-            
-            ![Screen Shot 2022-03-29 at 9.31.28 AM.png](Vector%20Spaces%2075017d01ddce48a5ac078bb8bb1d099e/Screen_Shot_2022-03-29_at_9.31.28_AM.png)
             
             Any linear transformation $$T: \mathbb{R} \to \mathbb{R}$$ is just a multiplication by a constant.
             
@@ -265,8 +255,6 @@ $$
     - A vector in $$\mathbb{F}^n$$ can only be multiplied with an $$m \times n$$ matrix, since there is going to be 1 column for each vector in the standard basis, which has the size $$n$$.
     - Exercises:
         
-        ![Screen Shot 2022-03-30 at 11.32.19 AM.png](Vector%20Spaces%2075017d01ddce48a5ac078bb8bb1d099e/Screen_Shot_2022-03-30_at_11.32.19_AM.png)
-        
         Let $$T:\mathbb{R}^2 \to \mathbb{R}^2$$ be a linear transformation, such that $$T(x_1,x_2)^T=(x_2,x_1)^T$$. Then, we can find the matrix representing this transformation by a linear combination of $$\mathbb{R}^2$$’s standard basis.
         
         $$
@@ -274,20 +262,13 @@ $$
         $$
         
         **Find the matrix of $$T$$:**
-        
-        ![Screen Shot 2022-03-30 at 11.49.47 AM.png](Vector%20Spaces%2075017d01ddce48a5ac078bb8bb1d099e/Screen_Shot_2022-03-30_at_11.49.47_AM.png)
+
         
         Consider the standard basis of $$\mathbb{P}^n$$: $$1,t,t^2,\ldots,t^n$$, and let $$e_k=t^k\begin{pmatrix}0 \\ 0 \\ \vdots \\ 1 \\ \vdots \\ 0 \end{pmatrix}$$, with the 1 at the $$k$$th entry. Then, 
         
         $$
         Tf(t)=f'(t)=\sum_{k=0}^nTe_k=\sum_{k=0}^nkt^{k-1}e_k\\=1\begin{pmatrix} 0 \\ 1 \\0 \\\vdots \\ 0 \end{pmatrix}+t\begin{pmatrix} 0 \\ 0\\2 \\ \vdots \\ 0 \end{pmatrix} +\ldots+t^{n-2}\begin{pmatrix} 0 \\ 0 \\ \vdots \\ n-1\\0 \end{pmatrix}+t^{n-1} \begin{pmatrix} 0 \\ 0 \\ 0 \\ \vdots \\ n \end{pmatrix}+t^n\begin{pmatrix} 0 \\ 0 \\ \vdots \\ 0 \\0 \end{pmatrix}\\
         $$
-        
-        ![Screen Shot 2022-03-30 at 12.31.49 PM.png](Vector%20Spaces%2075017d01ddce48a5ac078bb8bb1d099e/Screen_Shot_2022-03-30_at_12.31.49_PM.png)
-        
-        **c)**
-        
-        ![Screen Shot 2022-03-30 at 12.32.58 PM.png](Vector%20Spaces%2075017d01ddce48a5ac078bb8bb1d099e/Screen_Shot_2022-03-30_at_12.32.58_PM.png)
         
         Let $$T:\mathbb{R}^3 \to \mathbb{R}^3$$  be a linear transformation such that if $$\vec x=(x_1,x_2,x_3)^T$$ is a vector,  $$T\vec x$$ rotates $$\vec x$$ 30 degrees about the origin in the $$xy$$ plane. We notice that through a geometric argument the standard basis vectors in $$\mathbb{R}^3$$ are mapped as follows:
         
@@ -300,8 +281,6 @@ $$
         $$
         A=\begin{pmatrix} \frac{\sqrt 3}{2} \ \ \frac{1}{2} \ \ 0 \\ \           \frac{1}{2} \ \frac{\sqrt 3}{2} \  0 \\ \  0\ \ \ 0\ \ \ 1 \end{pmatrix}.
         $$
-        
-        ![Screen Shot 2022-03-30 at 4.58.32 PM.png](Vector%20Spaces%2075017d01ddce48a5ac078bb8bb1d099e/Screen_Shot_2022-03-30_at_4.58.32_PM.png)
         
         *Proof.*
         
@@ -437,8 +416,6 @@ $$
     
     Suppose $$A$$  is invertible. Then $$x=A^{-1}b$$ solves $$Ax=b$$. Suppose there is another vector $$x_1\in X$$ such that $$Ax_1=b$$. Then $$x_1=A^{-1}b=x$$ and thus this solution is unique. Now, we must show that $$A$$ is invertible if $$Ax=b$$ has a unique solution $$x\in X, \forall b \in Y$$. Suppose the equation $$Ax=y$$ (denoting $$b$$ as $$y$$) has a unique solution $$x \in X$$, which we will call $$B(y)$$. Then $$B(y)$$ is defined for all $$y \in Y$$, so $$B$$ is a transformation $$B:Y\to X$$.
     
-    ![Screen Shot 2022-04-02 at 6.33.05 PM.png](Vector%20Spaces%2075017d01ddce48a5ac078bb8bb1d099e/Screen_Shot_2022-04-02_at_6.33.05_PM.png)
-    
     Consider an arbitrary $$x\in X$$, and let $$y=Ax$$. By the definition of $$B$$, we have $$x=By$$. Then,
     
     $$
@@ -485,8 +462,6 @@ $$
     *Proof.*
     
     Since $$X$$ and $$Y$$ are subspaces of $$V$$, $$\alpha u + \beta v \in X, \forall u,v \in X$$ and all scalars $$\alpha, \beta$$, and $$\alpha_0 u_0 + \beta_0 v_0 \in Y, \forall u_0,v_0 \in Y$$ and all scalars $$\alpha_0, \beta_0$$. Consider an arbitrary vector $$w \in X$$ and another vector $$\sigma \in Y$$. Then, $$w+\sigma \in X \cap Y$$ since the definition of intersection implies that $$w \in X,Y \wedge \sigma \in X,Y$$ and since $$X$$  and $$Y$$ are subspaces of themselves, $$w+\sigma \in X \cap Y$$. Furthermore, $$cw \in X \cap Y$$ for an arbitrary constant $$c$$ since $$w \in X,Y$$ and since both $$X$$ and $$Y$$ are subspaces of themselves, $$cw \in X \cap Y$$. Thus, $$X \cap Y$$ is also a subspace of $$V$$. $$\blacksquare$$
-    
-    ![Screen Shot 2022-04-05 at 10.44.34 AM.png](Vector%20Spaces%2075017d01ddce48a5ac078bb8bb1d099e/Screen_Shot_2022-04-05_at_10.44.34_AM.png)
     
     *Proof.*
     
