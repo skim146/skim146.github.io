@@ -1,6 +1,10 @@
-# Vector Spaces
+---
+layout: posts
+comments: false
+author_profile: true
+---
 
-## Linear Algebra Done Wrong - Treil
+## Referencing Linear Algebra Done Wrong - Treil
 
 This lecture series will detail linear algebra for beginners. It is aimed at students who are first learning pure math and are struggling with basic proofs/mathematical reasoning.
 
