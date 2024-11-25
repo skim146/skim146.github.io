@@ -7,4 +7,4 @@ author_profile: true
 
 I will be uploading posts of my linear algebra notes here.
 
-- [Vector Spaces](/_posts/Vector%20Spaces.md)
+- [Vector Spaces](/vector/)
