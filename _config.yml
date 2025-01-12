@@ -44,12 +44,6 @@ author:
       email: "seankim146@gmail.com"
       location: "South Korea"
       links:
-              - label: "Discord"
-                icon: "fab fa-discord"
-                url: "https://discordapp.com/users/sean.0728"
-              - label: "Spotify"
-                icon: "fab fa-spotify"
-                url: "https://open.spotify.com/user/nhf8gxa9bzop8pgbbsyjk0hkv?si=6fc9f0d3f0ad4640"
               - label: "Math SE"
                 icon: "fab fa-stack-exchange"
                 url: "https://math.stackexchange.com/users/1055533/sean-kim"
