@@ -3,10 +3,7 @@ main:
   - title: "Research"
     url: /research/
 
-  - title: "Textbooks"
-    url: /mathint/
-
-  - title: "My Stuff"
+  - title: "Misc"
     url: /mystuff/
     
 
